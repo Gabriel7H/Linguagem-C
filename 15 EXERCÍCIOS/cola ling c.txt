@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+
+int main(int argc, char *argv[]) {
+	float sal, ven, mp, comi, sal_final;
+	setlocale(LC_ALL, "Portuguese");
+	printf ("Salário do funcionário: ");
+	scanf ("%f", &sal);
+	printf ("Valor das vendas: ");
+	scanf ("%f", &ven);
+	comi = ven * 0.04;
+	sal_final = comi + sal;
+	printf ("A comissão é: R$ %.2f \n", comi);
+	printf ("O salário final é: R$ %.2f \n", sal_final);
+	system ("PAUSE");
+	return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+
+int main(int argc, char *argv[]) {
+	float peso, peso15, peso20;
+	setlocale(LC_ALL, "Portuguese");
+	printf ("Peso atual(kg): ");
+	scanf ("%f", &peso);
+	peso15 = peso + (peso * 0.15);
+	peso20 = peso - (peso * 0.20);
+	printf ("O peso depois de engordar 15 por cento é(kg)): %.2f \n", peso15);
+	printf ("O peso depois de emagrecer 20 por cento é(kg)): %.2f \n", peso20);
+	system ("PAUSE");
+	return 0;
+}
+
+
+resu = num * 2;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 3;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 4;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 5;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 6;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 7;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 8;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 9;
+	printf ("1 x ", num);
+	printf ("=", resu);
+	resu = num * 10;
+	printf ("1 x ", num);
+	printf ("=", resu);
+#include <stdio.h>
+#include <string.h> //necessário para strcpy
+#include <conio.h>
+int main (void)
+{
+  char nome[15];
+  
+  strcpy(nome, "Fulano de Tal");
+  //strcpy(string_destino, string_origem);
+  //note que a string de destino é nome
+  //a string de origem é "Fulano de Tal"
+  
+  printf("Nome = %s", nome);
+  
+  getch();
+  return 0;
+}
