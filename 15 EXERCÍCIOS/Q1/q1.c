@@ -7,12 +7,12 @@
 int main(int argc, char *argv[]) {
 	int n1, n2, sub;
 	setlocale(LC_ALL, "Portuguese");
-	printf ("Digite um número: ");
+	printf ("Digite um nÃºmero now: ");
 	scanf ("%d", &n1);
-	printf ("Digite um número: ");
+	printf ("Digite um nÃºmero: ");
 	scanf ("%d", &n2);
 	sub = n1 - n2;
-	printf ("A subtração dos dois números é: %d \n", sub );
+	printf ("A subtraÃ§Ã£o dos dois nÃºmeros Ã©: %d \n", sub );
 	system ("PAUSE");
 	return 0;
 }
